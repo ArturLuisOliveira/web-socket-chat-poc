@@ -20,6 +20,8 @@ export const useChat = () => {
 
   const send = useCallback(
     (text: string) => {
+      if (!text) return;
+
       webSocket.send(
         JSON.stringify({
           text,
