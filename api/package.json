@@ -1,0 +1,16 @@
+{
+  "name": "web-sockets-chat",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.5",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "ws": "^8.13.0"
+  }
+}
